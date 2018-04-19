@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Geocoding</title>
+    <script src="geo.js"></script>
+</head>
+<body>
+<br>
+<br>
+<div align="center"> Enter Address
+    <br>
+    <p> Note : Enter the street address that you want to geocode, in the format used by the national postal service of the country concerned </p>
+    <br>
+    <input placeholder="Street Address Only" style="height:30px;font-size: 12px" id="geoInput1">
+    <br>
+    <input placeholder="City" style="height:30px;font-size: 12px" id="geoInput2">
+    <br>
+    <input placeholder="Pin code" style="height:30px;font-size: 12px" id="geoInput3">
+    <br>
+
+    <br>
+    <button id="click" onclick="printer()" type="button">Get Latitude and Longitude</button>
+
+    <p id="outputText"></p>
+</div>
+</body>
+</html>
